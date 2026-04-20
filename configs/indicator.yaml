@@ -1,0 +1,10 @@
+depth: 5
+width: 768
+token_emb_dim: 4096
+hidden_states_dim: 4096
+topk: 100
+dropout: 0.2
+topk_norm: True
+concat_proj: False
+use_positional_embedding: False
+input_topk_token: 4
