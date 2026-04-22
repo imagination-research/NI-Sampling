@@ -7,6 +7,7 @@ This is the official implementaion of paper [NI Sampling: Accelerating Discrete 
 **Neural Indicator Sampling (NI Sampling)** is a novel framework designed to accelerate the sampling process of diffusion Large Language Models (LLMs). By training a lightweight neural indicator, we can dynamically predict which tokens should be sampled at each step, significantly reducing redundant computations while maintaining high generation quality. We will release the training code after re-arrangement.
 
 ## Prepare
+
 Please install the following dependencies:
 ```
 pip install torch==2.1.2 transformers==4.45.2 accelerate
